@@ -1,19 +1,5 @@
-#Audio voice concurrency related flags
-voice.playback.conc.disabled=true
-voice.record.conc.disabled=false
-voice.voip.conc.disabled=false
-#Decides the audio fallback path during voice call, deep-buffer and fast are the two allowed fallback paths now.
-voice.conc.fallbackpath=deep-buffer
-#parser input buffer size(256kb) in byte stream mode
-audio.parser.ip.buffer.size=262144
-tunnel.audio.encode = false
-
-#Enable PCM offload by default
-audio.offload.pcm.16bit.enable=true
-audio.offload.pcm.24bit.enable=true
-
-#enable voice path for PCM VoIP by default
-use.voice.path.for.pcm.voip=true
+vendor.voice.voip.conc.disabled=false
+vendor.voice.conc.fallbackpath=deep-buffer
 
 # Bluetooth
 ro.bluetooth.dun=true
