@@ -1,3 +1,20 @@
+#Audio voice concurrency related flags
+voice.playback.conc.disabled=true
+voice.record.conc.disabled=false
+voice.voip.conc.disabled=false
+#Decides the audio fallback path during voice call, deep-buffer and fast are the two allowed fallback paths now.
+voice.conc.fallbackpath=deep-buffer
+#parser input buffer size(256kb) in byte stream mode
+audio.parser.ip.buffer.size=262144
+tunnel.audio.encode = false
+
+#Enable PCM offload by default
+audio.offload.pcm.16bit.enable=true
+audio.offload.pcm.24bit.enable=true
+
+#enable voice path for PCM VoIP by default
+use.voice.path.for.pcm.voip=true
+
 # Bluetooth
 ro.bluetooth.dun=true
 ro.bluetooth.sap=true
@@ -19,6 +36,18 @@ ro.ril.telephony.qan_resp_strings=6
 
 # Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
 ro.telephony.call_ring.multiple=0
+
+persist.cne.feature=0
+persist.radio.lte_vrte_ltd=1
+persist.radio.apm_sim_not_pwdn=1
+persist.data.mode=concurrent
+persist.data.dpm.enable=true
+persist.data.dropssdp=false
+persist.radio.new.profid=true
+telephony.lteOnCdmaDevice=0
+
+ro.radio.noril=no
+ro.use_data_netmgrd=true
 
 # Dalvik
 dalvik.vm.heapstartsize=16m
