@@ -2,6 +2,7 @@
 bin/netmgrd:vendor/bin/netmgrd
 bin/qmuxd:vendor/bin/qmuxd
 bin/radish:vendor/bin/radish
+etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/data/qmi_config.xml
 lib64/libfloatingfeature.so
@@ -13,11 +14,13 @@ lib/libsec-ril.so|8665314f883751a5494e08beb607b697508aaa61
 lib/libprotobuf-cpp-full.so:vendor/lib/libprotobuf-cpp-haxx.so
 vendor/lib64/libcneapiclient.so|5f1ca39c8744e18e68690448efa68cca97236437
 vendor/lib64/libconfigdb.so
+vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libxml.so
 vendor/lib/libconfigdb.so
+vendor/lib/libdsi_netctrl.so
 vendor/lib/libnetmgr.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libsystem_health_mon.so
