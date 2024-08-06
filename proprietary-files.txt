@@ -18,12 +18,14 @@ vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/libsystem_health_mon.so
+vendor/lib64/libqdi.so
 vendor/lib64/libxml.so
 vendor/lib/libconfigdb.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libnetmgr.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libsystem_health_mon.so
+vendor/lib/libqdi.so
 vendor/lib/libxml.so
 
 # Sensors
