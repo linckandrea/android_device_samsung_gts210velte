@@ -6,7 +6,7 @@ etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/data/qmi_config.xml
 lib64/libfloatingfeature.so
-lib64/libsec-ril.so|07b0fb74f143a45520a18fba749d4596f90ed861
+lib64/libsec-ril.so:vendor/lib64/libsec-ril.so|07b0fb74f143a45520a18fba749d4596f90ed861
 lib64/libprotobuf-cpp-full.so:vendor/lib64/libprotobuf-cpp-haxx.so
 lib64/libprotobuf-cpp-lite.so:lib64/libprotobuf-cpp-lhax.so
 lib/libfloatingfeature.so
