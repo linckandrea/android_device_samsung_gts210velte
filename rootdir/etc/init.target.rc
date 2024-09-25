@@ -41,10 +41,11 @@ service qmuxd /vendor/bin/qmuxd
 service netmgrd /vendor/bin/netmgrd
     class main
     group radio system wakelock oem_2950
+    disabled
     writepid /dev/cpuset/system-background/tasks
 
-on property:ro.baseband=msm
-    enable qmuxd
+#on property:ro.baseband=msm
+#    enable qmuxd
 
 on property:vold.decrypt=trigger_restart_framework
     restart qmuxd
