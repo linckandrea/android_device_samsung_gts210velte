@@ -22,7 +22,7 @@ DEVICE_PATH := device/samsung/gts210velte
 TARGET_OTA_ASSERT_DEVICE := gts210velte
 
 # HIDL
-#DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Display
 TARGET_SCREEN_DENSITY := 320
